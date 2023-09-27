@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../dist/output.css" />
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Tesla_T_symbol.svg/1200px-Tesla_T_symbol.svg.png"
+      type="image/x-icon"
+    />
+    <script type="module" src="index.js"></script>
     <title>Tesla</title>
   </head>
   <body>
     <!-- Header and model-3 -->
 
     <div
-      class="relative bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/e90a341e-f9ca-4aa1-8eab-94afea118786/bvlatuR/std/2880x1800/M3-Homepage-D')] h-screen bg-center bg-cover"
+      class="relative overflow-hidden bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/e90a341e-f9ca-4aa1-8eab-94afea118786/bvlatuR/std/2880x1800/M3-Homepage-D')] h-screen bg-center bg-cover"
     >
       <div class="pt-5 flex justify-between font-bold items-center">
         <div class="ml-8">
@@ -60,7 +66,7 @@
           </ul>
         </div>
         <div>
-          <ul class="flex space-x-4 mr-2 text-sm">
+          <ul class="flex space-x-2 mr-2 text-sm">
             <li
               class="cursor-pointer hover:rounded-full hover:bg-slate-300 py-1 px-3"
             >
@@ -126,7 +132,7 @@
     <!-- model y section -->
 
     <div
-      class="relative bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70')] h-screen bg-center bg-cover"
+      class="relative overflow-hidden bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70')] h-screen bg-center bg-cover"
     >
       <div class="pt-5 flex justify-between font-bold items-center">
         <div
@@ -142,7 +148,7 @@
           </p>
         </div>
         <div
-          class="absolute bottom-[50px] left-[50%] translate-x-[-50%] flex flex-col md:flex-row md:space-x-4"
+          class="absolute bottom-[35px] left-[50%] translate-x-[-50%] flex flex-col md:flex-row md:space-x-4"
         >
           <button
             class="uppercase bg-gray-800 text-white w-96 rounded-full h-10 md:w-60"
@@ -161,7 +167,7 @@
     <!-- accessories section -->
 
     <div
-      class="relative bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/dd739764-bcaa-4263-9488-8c73bc9fb046/bvlatuR/std/2880x2400/Desktop-Accessories')] h-screen bg-center bg-cover"
+      class="relative overflow-hidden bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/dd739764-bcaa-4263-9488-8c73bc9fb046/bvlatuR/std/2880x2400/Desktop-Accessories')] h-screen bg-center bg-cover"
     >
       <div class="pt-5 flex justify-between font-bold items-center">
         <div
@@ -178,5 +184,20 @@
         </div>
       </div>
     </div>
+    <footer
+      class="flex py-10 md:py-5 justify-center items-center bg-black text-slate-300 text-sm"
+    >
+      <ul
+        class="flex flex-col justify-center items-center gap-2 md:gap-0 md:flex-row md:space-x-4"
+      >
+        <li class="link">Telsla &copy;<span id="year"></span></li>
+        <li class="link">Privacy & Legal</li>
+        <li class="link">Contact</li>
+        <li class="link">Careers</li>
+        <li class="link">News</li>
+        <li class="link hidden md:inline">Engage</li>
+        <li class="link hidden md:inline">Location</li>
+      </ul>
+    </footer>
   </body>
 </html>
