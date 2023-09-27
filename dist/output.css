@@ -551,8 +551,8 @@ video {
   bottom: 0.75rem;
 }
 
-.bottom-\[50px\] {
-  bottom: 50px;
+.bottom-\[35px\] {
+  bottom: 35px;
 }
 
 .bottom-\[60px\] {
@@ -569,14 +569,6 @@ video {
 
 .top-20 {
   top: 5rem;
-}
-
-.bottom-\[40px\] {
-  bottom: 40px;
-}
-
-.bottom-\[35px\] {
-  bottom: 35px;
 }
 
 .mx-auto {
@@ -657,20 +649,8 @@ video {
   flex-direction: column;
 }
 
-.content-center {
-  align-content: center;
-}
-
-.items-start {
-  align-items: flex-start;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-center {
@@ -691,12 +671,6 @@ video {
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .overflow-hidden {
   overflow: hidden;
 }
@@ -709,6 +683,11 @@ video {
   border-radius: 9999px;
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
@@ -717,11 +696,6 @@ video {
 .bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0\/bvlatuR\/std\/2880x2400\/Desktop-ModelY\?quality\=70\'\)\] {
@@ -734,10 +708,6 @@ video {
 
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/e90a341e-f9ca-4aa1-8eab-94afea118786\/bvlatuR\/std\/2880x1800\/M3-Homepage-D\'\)\] {
   background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/e90a341e-f9ca-4aa1-8eab-94afea118786/bvlatuR/std/2880x1800/M3-Homepage-D');
-}
-
-.bg-\[url\(\'https\:\/\/i\.gifer\.com\/6h6\.gif\'\)\] {
-  background-image: url('https://i.gifer.com/6h6.gif');
 }
 
 .bg-cover {
@@ -758,17 +728,8 @@ video {
   padding-bottom: 0.25rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .py-10 {
   padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.pb-10 {
   padding-bottom: 2.5rem;
 }
 
@@ -778,10 +739,6 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
 }
 
 .text-\[40px\] {
@@ -796,11 +753,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .font-bold {
@@ -821,19 +773,14 @@ video {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
 .text-slate-300 {
   --tw-text-opacity: 1;
   color: rgb(203 213 225 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -884,14 +831,6 @@ video {
     flex-direction: row;
   }
 
-  .md\:items-center {
-    align-items: center;
-  }
-
-  .md\:justify-center {
-    justify-content: center;
-  }
-
   .md\:gap-0 {
     gap: 0px;
   }
@@ -905,10 +844,6 @@ video {
   .md\:py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
-  }
-
-  .md\:pl-0 {
-    padding-left: 0px;
   }
 }
 
